@@ -28,7 +28,7 @@ function ExperiencePage() {
               students and fellow mentors
             </p>
             <p>
-              Tailored 30+ lesson plans to each student's needs to maximize
+              Tailored 30+ lesson plans to each students needs to maximize
               their learning potential
             </p>
           </li>
