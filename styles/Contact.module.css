@@ -1,0 +1,17 @@
+.flexContacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contact {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding-top: 10px;
+    padding-right: 30px;
+  }
+  
+  .contact :hover {
+    text-decoration: underline;
+  }

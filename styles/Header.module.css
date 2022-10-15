@@ -1,0 +1,20 @@
+.title {
+  margin: 50px;
+  line-height: 1.15;
+  font-size: 4rem;
+  padding: 100px 0 10px;
+  text-align: center;
+}
+
+.title span {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.hello {
+  padding-top: 50px;
+}
+
+.picture {
+    padding-right: 100px;
+}

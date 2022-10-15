@@ -1,0 +1,20 @@
+.navBar {
+  margin: rem 0;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: min(30px);
+}
+
+.navBar :hover {
+  text-decoration: underline;
+}
+
+.lines {
+  text-align: center;
+}
