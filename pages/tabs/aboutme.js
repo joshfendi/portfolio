@@ -3,8 +3,7 @@ import Footer from "../../components/Footer";
 import tabStyle from "../../styles/Tabs.module.css";
 import aboutMeStyle from "../../styles/AboutMe.module.css";
 import Image from "next/image";
-import UCLA_emblem from "../../public/ucla.png"
-
+import UCLA_emblem from "../../public/ucla.png";
 
 function AboutMePage() {
   return (
