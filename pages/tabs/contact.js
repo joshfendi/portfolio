@@ -22,9 +22,10 @@ function ContactPage() {
           <div className={contactStyle.contact} meta="phone">
             <Image
               src={phone}
-              alt="phone"
+              alt="phone number:"
               width={50}
               height={50}
+              placeholder="blur"
             />
             (909) 358-3704
           </div>
@@ -32,7 +33,7 @@ function ContactPage() {
           <div className={contactStyle.contact} meta="email">
             <Image
               src={email}
-              alt="email"
+              alt="email:"
               width={50}
               height={50}
               placeholder="blur"
@@ -43,7 +44,7 @@ function ContactPage() {
           <div className={contactStyle.contact} meta="linkedIn">
             <Image
               src={linkedIn}
-              alt="linkedIn"
+              alt="linkedIn:"
               width={50}
               height={50}
               placeholder="blur"
