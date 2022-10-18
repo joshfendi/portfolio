@@ -1,9 +1,10 @@
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import NavBar from "../../components/NavBar";
 import tabStyle from "../../styles/Tabs.module.css";
 import aboutMeStyle from "../../styles/AboutMe.module.css";
 import Image from "next/image";
+import UCLA_emblem from "../public/ucla.png"
+
 
 function AboutMePage() {
   return (
@@ -13,7 +14,7 @@ function AboutMePage() {
       <div className={tabStyle.body}>
         <h2>About Me</h2>
         <div className={aboutMeStyle.container}>
-          <Image src="/../public/ucla.png" width={150} height={150} />
+          <Image src={UCLA_emblem} alt="ucla emblem" width={150} height={150} />
 
           <p>
             I am a 4th year at UCLA, currently pursuing a Psychobiology Major
