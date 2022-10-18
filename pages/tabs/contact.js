@@ -25,7 +25,6 @@ function ContactPage() {
               alt="phone"
               width={50}
               height={50}
-              placeholder="blur"
             />
             (909) 358-3704
           </div>
