@@ -1,14 +1,10 @@
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
 import tabStyle from "../../styles/Tabs.module.css";
 import funFactStyle from "../../styles/FunFact.module.css";
 import Link from "next/link";
 
-function FunFactPage() {
+const FunFactPage = ({ children }) => {
   return (
-    <div>
-      {/* <NavBar /> */}
-      <Header />
+    <div id="funfacts_page" className={tabStyle.color1}>
       <div className={tabStyle.body}>
         <h2>Fun Facts</h2>
         <h3>Favorite things</h3>
@@ -45,7 +41,6 @@ function FunFactPage() {
           </li>
         </ul>
       </div>
-      <Footer />
     </div>
   );
 }

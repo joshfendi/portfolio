@@ -13,7 +13,6 @@ const Header = ({ children }) => {
           <span>Joshua Fendi</span>
         </h1>
       </div>
-      <NavBar />
     </div>
   );
 };

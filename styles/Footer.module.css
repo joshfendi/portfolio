@@ -1,7 +1,5 @@
 .footer {
     padding-top: 10px;
-    padding-bottom: 3px;
-    padding-right: 3px;
     display: flex;
     justify-content: flex-end;
 }

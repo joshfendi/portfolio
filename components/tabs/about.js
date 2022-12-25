@@ -1,15 +1,11 @@
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
 import tabStyle from "../../styles/Tabs.module.css";
 import aboutMeStyle from "../../styles/AboutMe.module.css";
 import Image from "next/image";
 import UCLA_emblem from "../../public/ucla.png";
 
-function AboutMePage() {
+const AboutMePage = ({ children }) => {
   return (
-    <div>
-      {/* <NavBar class={tabStyles.bottomfade}/> */}
-      <Header />
+    <div id="aboutme_page" className={tabStyle.color1}>
       <div className={tabStyle.body}>
         <h2>About Me</h2>
         <div className={aboutMeStyle.container}>
@@ -29,7 +25,6 @@ function AboutMePage() {
           engineer.
         </p>
       </div>
-      <Footer />
     </div>
   );
 }

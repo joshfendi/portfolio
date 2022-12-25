@@ -1,6 +1,3 @@
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
-import NavBar from "../../components/NavBar";
 import tabStyle from "../../styles/Tabs.module.css";
 import contactStyle from "../../styles/Contact.module.css";
 
@@ -11,11 +8,9 @@ import phone from "../../public/contact/phone.png";
 import email from "../../public/contact/email.png";
 import linkedIn from "../../public/contact/linkedIn.png";
 
-function ContactPage() {
+const ContactPage = ({ children }) => {
   return (
-    <div>
-      {/* <NavBar class={tabStyles.bottomfade}/> */}
-      <Header />
+    <div id="contact_page" className={tabStyle.color2}>
       <div className={tabStyle.body}>
         <h2>Contact Info</h2>
         <div className={contactStyle.flexContacts}>
@@ -55,7 +50,6 @@ function ContactPage() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

@@ -4,33 +4,12 @@
   padding-bottom: 40px;
 }
 
+.color1 {
+  background-color: #b2d6ff;
+  padding: 5px;
+ }
 
-
-
-/* 
-.bottomfade {
-  position: relative;
-  animation: animatebottom 0.4s;
-}
-
-@keyframes animatebottom {
-  from {
-    bottom: -300px;
-    opacity: 0;
-  }
-  to {
-    bottom: 0;
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes animatebottom {
-  from {
-    bottom: -300px;
-    opacity: 0;
-  }
-  to {
-    bottom: 0;
-    opacity: 1;
-  }
-} */
+ .color2 {
+  background-color: #edeff0;
+  padding: 5px;
+ }

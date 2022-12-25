@@ -1,20 +1,14 @@
 import NavBarStyles from "../styles/NavBar.module.css";
-import Link from "next/link";
-import { useRouter } from "next/router";
 
 const NavBar = () => {
-  const router = useRouter();
-  const { pid } = router.query;
-
   return (
     <div className={NavBarStyles.lines}>
       -------------------------------------------------------------
       <div className={NavBarStyles.navBar}>
-        <Link href={pid ? !"" : "../"}>Home</Link>
-        <Link href={pid ? !"" : "/tabs/aboutme"}>About Me</Link>
-        <Link href={pid ? !"" : "/tabs/experience"}>Experience</Link>
-        <Link href={pid ? !"" : "/tabs/funfacts"}>Fun Facts</Link>
-        <Link href={pid ? !"" : "/tabs/contact"}>Contact Info</Link>
+        <a href="#aboutme_page">About Me</a>
+        <a href="#experience_page">Experience & Skills</a>
+        <a href="#funfacts_page">Fun Facts</a>
+        <a href="#contact_page">Contact Info</a>
       </div>
       -------------------------------------------------------------
     </div>
