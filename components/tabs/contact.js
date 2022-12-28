@@ -6,7 +6,7 @@ import Link from "next/link";
 
 import phone from "../../public/contact/phone.png";
 import email from "../../public/contact/email.png";
-import linkedIn from "../../public/contact/linkedIn.png";
+import linkedin from "../../public/contact/linkedin.png";
 
 const ContactPage = ({ children }) => {
   return (
@@ -38,7 +38,7 @@ const ContactPage = ({ children }) => {
 
           <div className={contactStyle.contact} meta="linkedIn">
             <Image
-              src={linkedIn}
+              src={linkedin}
               alt="linkedIn:"
               width={50}
               height={50}
