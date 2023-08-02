@@ -11,24 +11,31 @@ const FunFactPage = ({ children }) => {
         <ul className={funFactStyle.list}>
           <li>
             <h4>Carnivore Diet</h4>
-            <p>My favorite food is meat, specifically steak :). I love meat so much that I made a website dedicated to all the varieties of meat the I liked for my first web development project</p>
+            <p>
+              I love meat so much that my first web development project was
+              dedicated to the varieties of meat the I liked!
+            </p>
           </li>
           <li>
             <h4>Figure Skating</h4>
             <p>
-              I Figure Skated with my twin sister for 11 years! Click{" "}
+              I started figure skating when I was 6 years old, and continued for
+              11 years with my twin sister! Before school practices, off-ice
+              training, and doing whatever we could to perfect our performances
+              rewarded us with the opportunity to compete at the Nationl level.
+              Click{" "}
               <Link href="https://www.youtube.com/watch?v=8XdqKqh9DyI">
                 <a target="_blank" className={funFactStyle.link}>
                   here
                 </a>
               </Link>{" "}
-              to see my favorite program that we performed
+              to see my favorite program that we performed.
             </p>
           </li>
           <li>
             <h4>Dragon Boat</h4>
             <p>
-              I am currently part of UCLA Dragon Boat (UCLADB). Dragon Boat is a
+              I am an alumni of UCLA Dragon Boat (UCLADB). Dragon Boat is a
               traditional Chinese team sport that I have been a part of for over
               7 years.{" "}
               <Link href="https://youtu.be/IJqwG7RdIak">
@@ -38,11 +45,17 @@ const FunFactPage = ({ children }) => {
               </Link>{" "}
               sums up what it means to be on UCLADB.
             </p>
+
+            <p>
+              In 2023 I qualified for TeamUSA for the second time! In August of
+              2024, I will be competing as a part of TeamUSA in Thailand against
+              teams from other nations.
+            </p>
           </li>
         </ul>
       </div>
     </div>
   );
-}
+};
 
 export default FunFactPage;

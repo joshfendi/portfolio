@@ -12,17 +12,14 @@ const AboutMePage = ({ children }) => {
           <Image src={UCLA_emblem} alt="ucla emblem" width={150} height={150} />
 
           <p>
-            I am a 4th year at UCLA, currently pursuing a Psychobiology Major
-            with a Specialization in Computing and a Minor in Cognitive Science.
+            I am a recent UCLA graduate, with a Bachelor of Psychobiology
+            with a Specialization in Computing, and a Minor in Cognitive Science.
           </p>
         </div>
 
         <p>
-          Technology has always fascinated me because of its complexity and
-          limitless capabilities to let me create whatever I can think of. Ever
-          since my first coding class during my Sophomore year of College, I
-          have been hungry to learn more about how to apply myself as a software
-          engineer.
+        Since my Sophomore year of College, I've been fascinated by technology's complexity 
+        and endless possibilities. Learning to code ignited a passion for software engineering, where I explore its various applications. Creating functional solutions brings me immense satisfaction, and I'm eager to contribute my skills to impactful projects that can shape a better future. The journey has been a captivating one, marked by continuous learning and boundless curiosity. I'm excited to embrace new horizons in this ever-evolving field.
         </p>
       </div>
     </div>

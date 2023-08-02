@@ -3,9 +3,10 @@ import Header from "../components/Header";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import AboutMePage from "../components/tabs/about";
-import ContactPage from "../components/tabs/contact";
+import ProjectsPage from "../components/tabs/projects";
 import ExperiencePage from "../components/tabs/experience";
 import FunFactPage from "../components/tabs/funfacts";
+import ContactPage from "../components/tabs/contact";
 
 
 
@@ -15,6 +16,7 @@ function HomePage() {
         <Header />
         <NavBar />
         <AboutMePage />
+        <ProjectsPage/>
         <ExperiencePage />
         <FunFactPage />
         <ContactPage />
