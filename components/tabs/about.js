@@ -18,8 +18,8 @@ const AboutMePage = ({ children }) => {
         </div>
 
         <p>
-        Since my Sophomore year of College, I've been fascinated by technology's complexity 
-        and endless possibilities. Learning to code ignited a passion for software engineering, where I explore its various applications. Creating functional solutions brings me immense satisfaction, and I'm eager to contribute my skills to impactful projects that can shape a better future. The journey has been a captivating one, marked by continuous learning and boundless curiosity. I'm excited to embrace new horizons in this ever-evolving field.
+        Since my Sophomore year of College, I`ve been fascinated by technology`s complexity 
+        and endless possibilities. Learning to code ignited a passion for software engineering, where I explore its various applications. Creating functional solutions brings me immense satisfaction, and I`m eager to contribute my skills to impactful projects that can shape a better future. The journey has been a captivating one, marked by continuous learning and boundless curiosity. I`m excited to embrace new horizons in this ever-evolving field.
         </p>
       </div>
     </div>
