@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-course",
+  "name": "nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,13 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.3.1",
-    "node": "18.x",
+    "eslint": "8.45.0",
+    "eslint-config-next": "13.4.12",
+    "next": "13.4.12",
     "react": "18.2.0",
     "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "eslint": "8.24.0",
-    "eslint-config-next": "12.3.1"
   }
 }
+
