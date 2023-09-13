@@ -49,7 +49,7 @@ const FunFactPage = ({ children }) => {
             <p>
               In 2023 I qualified for TeamUSA for the second time! In August of
               2024, I competed as a part of TeamUSA in Thailand against
-              teams from other nations.
+              teams from other nations. We placed 2nd place in multiple divisions.
             </p>
           </li>
         </ul>
